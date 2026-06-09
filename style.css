@@ -1,1 +1,69 @@
+body{
+  margin:0px;
+}
+.bodyy{
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr;
+  height: 110vh;
 
+}
+.mapa{
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(8, 1fr);  
+
+
+  grid-column: 1/2;
+  background-image: url("mapa1.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+
+.armored_orc{
+  background-image: url("armored_orc.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.boss_knight{
+  background-image: url("boss_knight.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.boss_dragon{
+  background-image: url("boss_dragon.png");
+    background-size:contain;
+  background-repeat: no-repeat;
+}
+.fast_goblin{
+  background-image: url("fast_goblin.png");
+    background-size:contain;
+  background-repeat: no-repeat;
+}
+.goblin{
+  background-image: url("goblin.png");
+    background-size:contain;
+  background-repeat: no-repeat;
+}
+.golem{
+  background-image: url("golem.png");
+    background-size:contain;
+  background-repeat: no-repeat;
+}
+.orc{
+  background-image: url("orc.png");
+    background-size:contain;
+  background-repeat: no-repeat;
+}
+.shaman{
+  background-image: url("shaman.png");
+    background-size:contain;
+  background-repeat: no-repeat;
+}
+.troll{
+  background-image: url("troll.png");
+    background-size:contain;
+  background-repeat: no-repeat;
+}
